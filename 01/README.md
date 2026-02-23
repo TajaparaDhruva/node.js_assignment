@@ -155,13 +155,13 @@ Example:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/TajaparaDhruva/student-cgpa-api.git
+git clone https://github.com/TajaparaDhruva/node.js_assignment.git
 ```
 
 ### 2️⃣ Go to Project Folder
 
 ```bash
-cd student-cgpa-api
+cd 01
 ```
 
 ### 3️⃣ Install Dependencies
@@ -186,19 +186,19 @@ http://localhost:5000
 
 ## 🌍 Live API (Render)
 
-👉 https://your-render-link.onrender.com
+👉 https://node-js-assignment-etp3.onrender.com/students
 
 ---
 
 ## 📮 Postman Documentation
 
-👉 https://documenter.getpostman.com/view/your-postman-id
+👉 https://documenter.getpostman.com/view/50839388/2sBXcGCe5G
 
 ---
 
 ## 💻 GitHub Repository
 
-👉 https://github.com/TajaparaDhruva/student-cgpa-api
+👉 https://github.com/TajaparaDhruva/node.js_assignment.git
 
 ---
 
@@ -220,8 +220,3 @@ http://localhost:5000
 * Deployed backend on Render
 * Documented APIs using Postman
 
----
-
-## 👨‍💻 Author
-
-**Dhruva Tajapara**
