@@ -106,7 +106,7 @@ app.get("/students/average", (req, res) => {
   const totalCgpa = students.reduce((sum, student) => sum + student.cgpa, 0);
   const avg = totalCgpa / students.length;
 
-  res.status(200).json({ averageCgpa: avg });
+  res.status(200).json({ averageCgpa: avg.toFixed(2) });
 });
 
 
