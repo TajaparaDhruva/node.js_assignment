@@ -198,7 +198,7 @@ http://localhost:5000
 
 ## 💻 GitHub Repository
 
-👉 https://github.com/TajaparaDhruva/node.js_assignment.git
+👉 https://github.com/TajaparaDhruva/node.js_assignment/tree/main/01
 
 ---
 
