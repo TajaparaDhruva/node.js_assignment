@@ -148,5 +148,5 @@ Use Postman to test all routes.
 
 GitHub Repo Link: https://github.com/TajaparaDhruva/node.js_assignment/tree/main/02   
 Postman Docs Link: https://documenter.getpostman.com/view/50839388/2sBXcGDKVi
-Render Deployment Link: https://node-assignment-2-3c23.onrender.com
+Render Deployment Link: https://node-js-assignment-1-9per.onrender.com/products
 
