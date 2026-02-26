@@ -78,15 +78,18 @@ app.get("/products/category/:categoryName",(req,res)=>{
 })
 
 app.post("/products",(req,res)=>{
-    const newProduct = {
-        id : products.length + 1,
-        name : req.body.name,
-        category : req.body.category,
-        price : req.body.price,
-        stock : req.body.stock,
-        rating : req.body.rating
-    };
 
+  const {name,category,price,stock,rating} = req.body; 
+
+  const newProduct = {
+    id : products.length+1,
+    name,
+    category,
+    price,
+    stock,
+    rating
+  };
+  
     products.push(newProduct);
 
     res.status(201).json({
@@ -103,14 +106,16 @@ app.put("/products/:id",(req,res)=>{
   if(index === -1){
     return res.status(404).json({message : "Product not found"});
   }
+  
+const {name,category,price,stock,rating} = req.body; 
 
   products[index] = {
     id : productId,
-    name : req.body.name,
-    category : req.body.category,
-    price : req.body.price,
-    stock : req.body.stock,
-    rating : req.body.rating
+    name,
+    category,
+    price,
+    stock,
+    rating
   };
 
   res.status(200).json({
