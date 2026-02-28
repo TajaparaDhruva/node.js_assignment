@@ -50,7 +50,7 @@ const products = [
 ## ▶️ How to Run Locally
 
 1. Clone Repository
-git clone <your-github-link>
+git clone https://github.com/TajaparaDhruva/node.js_assignment/tree/main/02
 
 2. Go to project folder
 cd assignment2
